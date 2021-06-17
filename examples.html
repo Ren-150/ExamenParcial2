@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="row">
+        <div class="col-12">
+            <i class="fa fa-list-ul icon_right fa-2x fa-border cuadroicon" aria-hidden="true"
+                style="margin-top: 15px;"></i>&nbsp;<b style="font-size: medium;">Examples</b></button>
+        </div>
+
+        <div class="container-fluid col-12" style="margin-top: 10px;">
+            <div class="cuadrocontenido centrar rounded-lg">
+                
+            
+                <div class="row">
+                    <div class="col-6">
+                        <div class="container">
+                            <form>
+                                <div class="form-row" style="padding-top: 20px;">
+                                    <div class="form-group col-md-12">
+                                        <label>Producto:</label>
+                                        <input type="text" class="form-control" id="prod">
+                                    </div>
+                                    <div class="form-group col-md-12">
+                                        <label>Cantidad:</label>
+                                        <input type="number" class="form-control" id="cant">
+                                    </div>
+                                </div>
+                                <div class="form-group col-md-12">
+                                    <label>Precio:</label>
+                                    <input type="number" class="form-control" id="precio">
+                                </div>
+                                
+                            </form>
+                            <button class="btn btn-primary" id="calcularmont">Calcular Monto</button>
+                            <button class="btn btn-primary marbutton" id="Limpiar1">Limpiar</button>
+                        </div>
+                    </div>
+                    <div class="col-6">
+            
+                        <div class="container" style="padding-top: 20px;">
+                            <div class="card" style="width: 28rem;">
+                                <img id="img2" style="display:none;" src="imagenes/fondo3.jpg" class="card-img-top" alt="">
+                                <div class="card-body">
+                                    <h5 class="card-title">Resultado:</h5>
+                                    <p id="desc" class="size_res_card"></p>
+                                    <p id="res" class="size_res_card">0</p>
+                                    <button class="btn btn-danger" id="MImagen2">Mostrar imagen</button>
+                                    <button class="btn btn-danger" id="HImagen2">Ocultar imagen</button>
+                                    <button class="btn btn-danger" id="Limpiar2">Limpiar</button>
+                                </div>
+                            </div>
+                        </div>
+            
+                    </div>
+                </div>
+            
+
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script_examples.js"></script>
+</body>
+</html>
